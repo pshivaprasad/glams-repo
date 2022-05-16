@@ -58,7 +58,7 @@ spec:
        stage('helm') {
            steps {
                sh 'helm version'
-               sh 'helm upgrade --install perigord-glams glams1'
+               sh 'helm upgrade --install glams1 glams-latest'
  
              
            }
